@@ -13,11 +13,13 @@ int getMax(int arr[], int n) {
     return max;
 }
 
+
 // Função de ordenação por contagem para um dígito específico
 void countingSort(int arr[], int n, int exp) {
     int output[n];
     int count[10] = {0};
 
+    printf("aiaiaiaiaiai");
     // Conta a ocorrência de cada dígito
     for (int i = 0; i < n; i++) {
         count[(arr[i] / exp) % 10]++;
