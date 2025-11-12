@@ -13,7 +13,7 @@ int getMax(int arr[], int n) {
     return max;
 }
 
-
+   
 // Função de ordenação por contagem para um dígito específico
 void countingSort(int arr[], int n, int exp) {
     int output[n];
